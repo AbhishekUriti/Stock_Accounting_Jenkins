@@ -16,7 +16,7 @@ public class AppTest extends BaseClass {
     String supplierPath="./DataTables/SupplierResults.xlsx";
     String customerpath="./DataTables/CustomerResults.xlsx";
 
-    @Test(priority = 0,enabled = false)
+    @Test(priority = 0)
     public void startSupplier() throws Throwable {
         ExcelFileUtil xl=new ExcelFileUtil(inputPath);
         int rc=xl.rowCount("suppliers");

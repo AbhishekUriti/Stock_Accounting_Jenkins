@@ -62,7 +62,7 @@ WebDriver driver;
         this.supplierAddbtn.sendKeys(Keys.ENTER);
         mywait.until(ExpectedConditions.elementToBeClickable(this.clickConfirmBtn));
         this.clickConfirmBtn.click();
-        Thread.sleep(1000);
+        Thread.sleep(2000);
         mywait.until(ExpectedConditions.elementToBeClickable(this.clickAlertOk));
         this.clickAlertOk.click();
         Thread.sleep(1000);
